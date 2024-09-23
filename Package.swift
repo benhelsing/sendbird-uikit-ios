@@ -19,10 +19,6 @@ let package = Package(
         ),
     ],
     targets: [
-        .binaryTarget(
-            name: "SendbirdUIKit",
-            path: "Framework/SendbirdUIKit.xcframework"
-        ),
         .target(
             name: "SendbirdUIKitTarget",
             dependencies: [
