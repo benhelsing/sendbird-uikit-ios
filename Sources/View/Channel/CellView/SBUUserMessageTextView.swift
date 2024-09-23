@@ -216,8 +216,6 @@ open class SBUUserMessageTextView: SBUView {
             
             textView.attributedText = mutableAttributedText
         }
-        
-        self.setupLayouts()
     }
 }
 
